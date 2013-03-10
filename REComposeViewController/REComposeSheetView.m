@@ -79,6 +79,14 @@
     return self;
 }
 
+- (CGFloat)textViewFontSize {
+    return (_textView.font.pointSize);
+}
+
+- (void)setTextViewFontSize:(CGFloat)fontSize {
+    _textView.font = [_textView.font fontWithSize:fontSize];
+}
+
 - (void)layoutSubviews
 {
     [super layoutSubviews];

@@ -63,6 +63,7 @@ typedef void (^REComposeViewControllerCompletionHandler)(REComposeViewController
 @property (copy, nonatomic) REComposeViewControllerCompletionHandler completionHandler;
 @property (weak, nonatomic) id <REComposeViewControllerDelegate> delegate;
 @property (assign, readwrite, nonatomic) NSInteger cornerRadius;
+@property (assign, nonatomic) CGFloat textFontSize;
 
 @end
 

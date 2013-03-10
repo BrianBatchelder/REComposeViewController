@@ -239,6 +239,14 @@
     _sheetView.textView.text = text;
 }
 
+- (CGFloat) textFontSize {
+    return _sheetView.textViewFontSize;
+}
+
+- (void) setTextFontSize:(CGFloat)textFontSize {
+    _sheetView.textViewFontSize = textFontSize;
+}
+
 #pragma mark -
 #pragma mark REComposeSheetViewDelegate
 
